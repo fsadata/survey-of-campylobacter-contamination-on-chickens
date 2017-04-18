@@ -1,0 +1,222 @@
+{
+	"fields": [
+		{
+			"name": "Lab",
+			"title": "laboratory",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "SampleNumber",
+			"title": "Sample number",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateExamined",
+			"title": "Date examined",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "BoxTempNoOnReceipt",
+			"title": "Box temperature number on receipt",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Retailer",
+			"title": "Retailer",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "OtherPremisesDetails",
+			"title": "Other premises details",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "PostCode",
+			"title": "Post code",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Country",
+			"title": "Country",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "UseByDate",
+			"title": "Use by date",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "RemainingShelflifeDays",
+			"title": "Remaining shelf life in days",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "ProcessorApprovalNumber",
+			"title": "Processor approval number",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "SampleDetails",
+			"title": "Sample details",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TemperatureAtCollection",
+			"title": "Temperature at collection",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "SampleReceipt",
+			"title": "Sample receipt",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ProductWeightGrams",
+			"title": "Product weight in grams",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "CostOfChicken",
+			"title": "Cost of chicken",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "TypeOfChicken",
+			"title": "Type of chicken",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TypeOfChickenExtraDetails",
+			"title": "Type of chicken extra details",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TypeOfChickenExtraDetails2",
+			"title": "Type of chicken extra details part 2",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "PackagingAtmosphere",
+			"title": "Packaging atmosphere",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "RoastInBag",
+			"title": "Roast in a bag",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "LiquidInPack",
+			"title": "Liquid in pack",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NeckSkinWeightGrams",
+			"title": "Neck skin weight in grams",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Test",
+			"title": "Test",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Result",
+			"title": "Result",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Units",
+			"title": "Units",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "SpeciesDetected",
+			"title": "Species detected",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
